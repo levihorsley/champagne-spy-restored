@@ -1,0 +1,3 @@
+#!/bin/bash
+# Per-scene deinterlaced lossless master: P=untouched, T=bwdif tff, B=bwdif bff, M=per-frame idet+bwdif
+ffmpeg -nostdin -hide_banner -i "~/Movies/ChampagneSpy_work/main_source.mkv" -map 0:v:0 -an -sn -filter_complex "[0:v:0]setpts=N/(25*TB),split=4[p][t][b][m];[p]sendcmd=f='/tmp/work/champ/main_cmds.txt'[p1];[t]bwdif=mode=send_frame:parity=tff:deint=all[t1];[b]bwdif=mode=send_frame:parity=bff:deint=all[b1];[m]setfield=prog,idet,bwdif=mode=send_frame:parity=auto:deint=interlaced[m1];[p1][t1][b1][m1]streamselect@sel=inputs=4:map=0,setfield=prog,setsar=64/45[out]"   -map "[out]" -r 25 -c:v ffv1 -level 3 -g 1 -slices 16 -slicecrc 1 -pix_fmt yuv420p -y "~/Movies/ChampagneSpy_work/main_master_ffv1.mkv"

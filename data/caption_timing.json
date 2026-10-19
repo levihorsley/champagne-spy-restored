@@ -1,0 +1,77 @@
+{
+ "presenters": {
+  "start": 82.28,
+  "end": 87.28,
+  "strokes": 2833
+ },
+ "Kamera": {
+  "start": 91.2,
+  "end": 93.36,
+  "strokes": 572
+ },
+ "Schnitt": {
+  "start": 101.96,
+  "end": 105.6,
+  "strokes": 2485
+ },
+ "Ton": {
+  "start": 115.12,
+  "end": 117.76,
+  "strokes": 899
+ },
+ "Visuelle Effekte": {
+  "start": 123.24,
+  "end": 128.8,
+  "strokes": 3610
+ },
+ "Originalmusik": {
+  "start": 125.16,
+  "end": 128.8,
+  "strokes": 2639
+ },
+ "Produzenten": {
+  "start": 147.4,
+  "end": 154.44,
+  "strokes": 10218
+ },
+ "Titel": {
+  "start": 155.0,
+  "end": 161.72,
+  "strokes": 10111
+ },
+ "Buch und Regie": {
+  "start": 162.88,
+  "end": 166.52,
+  "strokes": 3773
+ },
+ "Avigdor": {
+  "start": 515.6,
+  "end": 524.08,
+  "strokes": 3884
+ },
+ "Arie Sivan": {
+  "start": 855.68,
+  "end": 859.52,
+  "strokes": 3157
+ },
+ "Hannelore": {
+  "start": 2072.56,
+  "end": 2078.44,
+  "strokes": 6520
+ },
+ "Rivka": {
+  "start": 5151.52,
+  "end": 5161.16,
+  "strokes": 4851
+ },
+ "Lotz": {
+  "start": 5162.72,
+  "end": 5172.56,
+  "strokes": 6174
+ },
+ "Oded": {
+  "start": 5173.84,
+  "end": 5183.08,
+  "strokes": 5817
+ }
+}
